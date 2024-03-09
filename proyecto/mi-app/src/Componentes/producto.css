@@ -1,0 +1,48 @@
+.contenedor-producto{
+    width: 1170px;
+    height: 328px;
+    margin: 10px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+}
+.imagenproducto{
+    height: 100%;
+    width: auto;
+}
+.contenedor-texto-producto{
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    padding: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.textotipoproducto{
+    font-size: 1.9em;
+}
+.producto-descripcion{
+    font-size: 1.1em;
+    margin-top: 15px;
+}
+.precio{
+    font-size: 1.1rem;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+button {
+  background-color: #1b67a5; /* Color de fondo */
+  color: white; /* Color del texto */
+  padding: 10px 15px; /* Espaciado interno */
+  border: none; /* Elimina el borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+  transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
+}
+
+button:hover {
+  background-color: #45a049; /* Cambia el color de fondo al pasar el ratón */
+}

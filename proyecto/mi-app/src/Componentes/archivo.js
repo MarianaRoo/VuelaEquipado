@@ -12,15 +12,8 @@ function Quienessomos(){
       <strong><p className="textoquienessomos">¿Quienes somos? </p></strong>
       <p className="vuela-equipado">Bienvenido a vuela equipado, tu destino para accesorios de viaje elegantes y funcionales en donde nos apasiona facilitar tus aventuras alrededor del mundo proporcionándote productos de alta calidad que complementan tu estilo de vida viajero.</p>
       <p className="descripcion">Somos una tienda con un alto valor en el mercado comercial,ofreciendo productos de alta calidad, exclusivos y con los mejores precios </p>
-      <footer className="contenedor-footer">
-      <p className="texto-footer"> Vuela Equipado. Todos los derechos reservados.</p>
-    </footer>
-    
       </div>
-      </div>
-      
-      
-    
+    </div>
   );
 }
 export default Quienessomos;
