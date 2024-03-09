@@ -23,6 +23,7 @@
 }
 .textoquienessomos{
     font-size: 1.9em;
+    background-color: aqua;
 }
 .vuela-equipado{
     font-size: 1.1em;
@@ -33,6 +34,4 @@
     margin-top: 15px;
     padding-bottom: 30px;
 }
-p{
-    background-color: aqua;
-}
+
