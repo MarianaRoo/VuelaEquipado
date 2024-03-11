@@ -4,7 +4,7 @@ import logoavion from '../src/imagenes/avion.jpeg'
 export const navegacion = () => {
   return (
     <>
-        <header style={{color:"white"}}>
+        <Header style={{color:"white"}}>
             <nav className='navbar navbar-expand-log navbar-light bg-primary'>
                 <a href="">
                     <img src={logoavion} height="100" alt='No encontrada'/>
@@ -18,7 +18,7 @@ export const navegacion = () => {
 
             </nav>
 
-        </header>
+        </Header>
     </>
   )
 }
