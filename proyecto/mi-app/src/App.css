@@ -46,8 +46,7 @@ p{
 
 .footer {
   background-color: #ffffff; /* Color de fondo del footer */
-  color: rgb(7, 7, 7); /* Color del texto */
-  padding: 20px; /* Espaciado interno */
+  color: rgb(12, 11, 11); /* Color del texto */
   position: fixed; /* Fijar el footer en la parte inferior de la página */
   left: 0;
   bottom: 0;
@@ -60,10 +59,10 @@ p{
  }
  
  .nav-link {
-  color: white; /* Color del enlace */
+  color: rgb(0, 0, 0); /* Color del enlace */
   text-decoration: none; /* Quitar subrayado */
  }
  
  .nav-link:hover {
-  color: #ddd; /* Cambiar el color al pasar el mouse */
+  color: #000000; /* Cambiar el color al pasar el mouse */
  }

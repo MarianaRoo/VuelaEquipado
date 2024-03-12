@@ -1,5 +1,6 @@
 
 import './App.css';
+import AboutUs from './Componentes/AboutUs.js';
 import { Footer } from './Componentes/Footer.jsx';
 import Quienessomos from"./Componentes/archivo.js";
 import Productos from './Componentes/producto.js';
@@ -29,7 +30,7 @@ function App() {
             precio="Precio COP $150.000."
             CarritoBoton />
             <Footer/>
-            
+           
             
       </div>
     </div>
