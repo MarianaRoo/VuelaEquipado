@@ -66,3 +66,8 @@ p{
  .nav-link:hover {
   color: #000000; /* Cambiar el color al pasar el mouse */
  }
+ .convenio1{
+  justify-content: center;
+  background-color: #ffffff;
+  font-size: 20px;
+ }

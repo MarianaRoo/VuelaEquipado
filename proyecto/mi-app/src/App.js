@@ -1,6 +1,7 @@
 
 import './App.css';
 import AboutUs from './Componentes/AboutUs.js';
+import Creación from './Componentes/Creación.js';
 import { Footer } from './Componentes/Footer.jsx';
 import Quienessomos from"./Componentes/archivo.js";
 import Productos from './Componentes/producto.js';
@@ -30,6 +31,7 @@ function App() {
             descripcion="Con el organizador de viajes manten todos tus elementos en un solo lugar, practico y liviano para todo tipo de viajes."
             precio="Precio COP $150.000."
             CarritoBoton />
+            <Creación/>
             <Footer/>
             
       </div>
