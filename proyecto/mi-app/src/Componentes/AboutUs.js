@@ -3,9 +3,13 @@ import React from 'react';
 const AboutUs = () => {
  return (
     <div className="container">
-      <h1>Convenios</h1>
+      <h2>Convenios</h2>
       <p>Actualmente presentamos convenios directos con las siguientes aerolineas: 
-      Avianca - Wingo - LATAM
+      Avianca
+      Wingo
+      LATAM
+      AeroCaribe
+      AeroCaribe
       </p>
       {/* Contenido Convenios Vuela Equipado */}
     </div>

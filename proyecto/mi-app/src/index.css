@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* AboutUs.css */
+.container {
+  padding: 20px;
+  background-color: #fffefe;
+ }
+ 
+ .container h1 {
+  color: #333;
+ }
+ 
+ .container p {
+  font-size: 16px;
+  color: #000000;
+ }
