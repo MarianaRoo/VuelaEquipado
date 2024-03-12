@@ -47,7 +47,7 @@ p{
 .footer {
   background-color: #ffffff; /* Color de fondo del footer */
   color: rgb(12, 11, 11); /* Color del texto */
-  position: fixed; /* Fijar el footer en la parte inferior de la página */
+  /* position: fixed; /* Fijar el footer en la parte inferior de la página */
   left: 0;
   bottom: 0;
   width: 100%; /* Ancho completo */

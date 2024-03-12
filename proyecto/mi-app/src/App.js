@@ -17,6 +17,7 @@ function App() {
        <p> productos de calidad para la comodidad de tus viajes</p>
 
        <Quienessomos/>
+       <AboutUs/>
        <Productos
           imagen="maleta"
           nombre="Maleta channel"
@@ -30,7 +31,6 @@ function App() {
             precio="Precio COP $150.000."
             CarritoBoton />
             <Footer/>
-           
             
       </div>
     </div>
