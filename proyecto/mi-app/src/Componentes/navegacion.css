@@ -1,0 +1,50 @@
+.barra-navegacion {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Hacer que la barra ocupe todo el ancho */
+    height: 10%;
+  }
+  
+  .logo {
+   
+  width: 80px;
+  height: 80px; /* Ajusta la altura para que la imagen sea un círculo */
+  border-radius: 50%; /* Hace que la imagen sea un círculo */
+  object-fit: cover; /* Ajusta el comportamiento de la imagen dentro del círculo */
+}
+  
+  
+  .lista-enlaces {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .lista-enlaces li {
+    margin-right: 20px;
+  }
+  
+  .lista-enlaces a {
+    text-decoration: double;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .lista-enlaces a:hover {
+    color: #ffcc00;
+  }
+
+  .titulo {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+   }
+  
+  

@@ -1,0 +1,50 @@
+.comentarios-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+  }
+  
+  .lista-comentarios {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .comentario-item {
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #f0f0f0;
+    border-radius: 3px;
+  }
+  
+  .nuevo-comentario-container {
+    margin-top: 20px;
+  }
+  
+  .input-comentario {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .btn-agregar {
+    background-color: #1b67a5;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  

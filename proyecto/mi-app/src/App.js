@@ -2,14 +2,20 @@
 import './App.css';
 import Quienessomos from"./Componentes/archivo.js";
 import Productos from './Componentes/producto.js';
-
+import React from 'react';
+import Comentarios from './Componentes/Comentarios'; 
+import RedesSociales from './Componentes/RedesSociales';
+import Navegacion from "./Componentes/navegacion.js";
 
 function App() {
   return (
+    
     <div className="App">
+       <Navegacion/>
       <div className='contenedor principal'>
-       <h1>Transformando tu vuelo</h1>
+       <strong><p>Transformando tu vuelo</p></strong>
        <p> productos de calidad para la comodidad de tus viajes</p>
+       
        
        <Quienessomos/>
        <Productos
@@ -24,8 +30,12 @@ function App() {
             descripcion="Con el organizador de viajes manten todos tus elementos en un solo lugar, practico y liviano para todo tipo de viajes."
             precio="Precio COP $150.000."
             CarritoBoton />
-       
+       <Comentarios /> 
+       <RedesSociales/>
+           
+      
       </div>
+      
     </div>
   );
   
